@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <header class="header">
+        <div class="header__content">
+          <div class="header__logo-container">
+            <div class="header__logo-img-cont">
+              <img
+                src="./assets/img/avatar.png"
+                alt="Logo Image"
+                class="header__logo-img"
+              />
+            </div>
+            <span class="header__logo-sub"> Kaushik</span>
+          </div>
+          <div class="header__main">
+            <ul class="header__links">
+              <li class="header__link-wrapper">
+                <a href="./index.html" class="header__link"> Home </a>
+              </li>
+              <li class="header__link-wrapper">
+                <a href="./index.html#projects" class="header__link">
+                  Projects
+                </a>
+              </li>
+              <li class="header__link-wrapper">
+                <a href="./index.html#about" class="header__link">About </a>
+              </li>
+              <li class="header__link-wrapper">
+                <a href="./index.html#contact" class="header__link"> Contact </a>
+              </li>
+            </ul>
+            <div class="header__main-ham-menu-cont">
+              <img
+                src="./assets/svg/ham-menu.svg"
+                alt="hamburger menu"
+                class="header__main-ham-menu"
+              />
+              <img
+                src="./assets/svg/ham-menu-close.svg"
+                alt="hamburger menu close"
+                class="header__main-ham-menu-close d-none"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="header__sm-menu">
+          <div class="header__sm-menu-content">
+            <ul class="header__sm-menu-links">
+              <li class="header__sm-menu-link">
+                <a href="./index.html"> Home </a>
+              </li>
+  
+              <li class="header__sm-menu-link">
+                <a href="./index.html#about"> About </a>
+              </li>
+              
+              <li class="header__sm-menu-link">
+                <a href="./index.html#projects"> Projects </a>
+              </li>
+  
+              <li class="header__sm-menu-link">
+                <a href="./index.html#contact"> Contact </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <section class="home-hero">
+        <div class="home-hero__content">
+          <h1 class="heading-primary">Hey, My name is  Kaushik Mazumdar</h1>
+          <div class="home-hero__info">
+            <p class="text-primary">
+              I am a passionate frontend developer based in Bengaluru,India. My specialities are <strong>React JS</strong> and <strong>Tailwind CSS</strong>, and I love building apps that are delightful to use.
+            </p>
+          </div>
+          <div class="home-hero__cta">
+            <a href="./#projects" class="btn btn--bg">See my projects</a>
+          </div>
+        </div>
+        <div class="home-hero__socials">
+          <div class="home-hero__social">
+            <a href="https://www.linkedin.com/in/kmzdr1" class="home-hero__social-icon-link">
+              <img
+                src="./assets/img/linkedin-ico.png"
+                alt="icon"
+                class="home-hero__social-icon"
+              />
+            </a>
+          </div>
+          <div class="home-hero__social">
+            <a href="https://www.github.com/KaushikMaz" class="home-hero__social-icon-link">
+              <img
+                src="./assets/img/github-ico.png"
+                alt="icon"
+                class="home-hero__social-icon"
+              />
+            </a>
+          </div>
+          <div class="home-hero__social">
+            <a href="https://www.twitter.com/1kaushik1" class="home-hero__social-icon-link">
+              <img
+                src="./assets/img/twitter-ico.png"
+                alt="icon"
+                class="home-hero__social-icon"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="home-hero__mouse-scroll-cont">
+          <div class="mouse"></div>
+        </div>
+      </section>
+      
+      
+          <section id="projects" class="projects sec-pad">
+        <div class="main-container">
+          <h2 class="heading heading-sec heading-sec__mb-bg">
+            <span class="heading-sec__main">Projects</span>
+            <span class="heading-sec__sub">
+              All my projects include links to the code and live version. Click the button to learn more about each one.
+            </span>
+          </h2>
+  
+          <div class="projects__content">
+            <div class="projects__row">
+              <div class="projects__row-img-cont">
+                <img
+                  src="./assets/img/youtube.png"
+                  alt="Software Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="projects__row-content">
+                <h3 class="projects__row-content-title">myVideoPlayer App</h3>
+                <p class="projects__row-content-desc">
+                  myVideoPlayer is a simple video Player app that lets you select from the already available sets or search any movie, music, news and games It's built with functional React components and uses Youtube API. It is deployed with features like debouncing and live chat.
+                   
+                </p>
+                <a
+                  href="https://github.com/KaushikMaz/myYoutube"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+            <div class="projects__row">
+              <div class="projects__row-img-cont">
+                <img
+                  src="./assets/img/moviedatabase.png"
+                  alt="Software Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="projects__row-content">
+                <h3 class="projects__row-content-title">MovieDatabase</h3>
+                <p class="projects__row-content-desc">
+                  A React App that gives you an overview over the Latest movies and usues OPen AI to search for best movies in any genre.
+                </p>
+                <a
+                  href="https://github.com/KaushikMaz/NetflixGPT"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      
+      <section id="about" class="about sec-pad">
+        <div class="main-container">
+          <h2 class="heading heading-sec heading-sec__mb-med">
+            <span class="heading-sec__main">About Me</span>
+            <span class="heading-sec__sub">
+              <p>I'm a frontend developer based out of Bengaluru, India. I love building apps that solve real-world problems, and that are delightful to use. My specialities include JavaScript, React JS, Tailwind CSS,and webflow.
+              </p>
+            </span>
+          </h2>
+          <div class="about__content">
+            <div class="about__content-main">
+              <h3 class="about__content-title">Get to know me!</h3>
+              <div class="about__content-details">
+                <p class="about__content-details-para">
+                  My background is in Engineering. I have a bachelors degree in Mechanical Engineering. When I'm not coding, I can be found designing, reading psychology or just to learn  any new thing.
+                </p>
+              </div>
+              <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+                >Contact</a
+              >
+            </div>
+            <div class="about__content-skills">
+              <h3 class="about__content-title">My Skills</h3>
+              <div class="skills">
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">JavaScript</div>
+                <div class="skills__skill">React</div>
+                <div class="skills__skill">TypeScript</div>
+                <div class="skills__skill">Git</div>
+                <div class="skills__skill">Figma</div>
+                <div class="skills__skill">Tailwind CSS</div>
+                <div class="skills__skill">Webflow</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+  
+      
+      
+      <section id="contact" class="contact sec-pad dynamicBg">
+        <div class="main-container">
+          <h2 class="heading heading-sec heading-sec__mb-med">
+            <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+            <span class="heading-sec__sub heading-sec__sub--lt">
+              Please reach out if you have any questions! I'm happy to jump on a video call to brainstorm projects and ideas. Send me an email at kmzdr1@gmail.com 
+            </span>
+          </h2>
+        </div>
+      </section>
+      <footer class="main-footer">
+        <div class="main-container">
+          <div class="main-footer__upper">
+            <div class="main-footer__row main-footer__row-1">
+              <h2 class="heading heading-sm main-footer__heading-sm">
+                <span>Social</span>
+              </h2>
+              <div class="main-footer__social-cont">
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kmzdr1">
+                  <img
+                    class="main-footer__icon"
+                    src="./assets/img/linkedin-ico.png"
+                    alt="icon"
+                  />
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://www.github.com/KaushikMaz">
+                  <img
+                    class="main-footer__icon"
+                    src="./assets/img/github-ico.png"
+                    alt="icon"
+                  />
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://www.twitter.com/1kaushik1">
+                  <img
+                    class="main-footer__icon"
+                    src="./assets/img/twitter-ico.png"
+                    alt="icon"
+                  />
+                </a>
+                
+               
+               
+              </div>
+            </div>
+            <div class="main-footer__row main-footer__row-2">
+              <h4 class="heading heading-sm text-lt">Kaushik Mazumdar</h4>
+              <!-- <p class="main-footer__short-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
+                tempora explicabo quae quod deserunt
+              </p> -->
+            </div>
+          </div>
+  
+          
+        </div>
+      </footer>
+  
+      <script src="./index.js"></script>
+    </body>
+  </html>
+  
+    
+</body>
+</html>
